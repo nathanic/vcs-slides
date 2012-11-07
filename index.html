@@ -36,7 +36,7 @@
             <div class="slides">
 
                 <section>
-                    <h1>Version Control</h1>
+                    <h1>Version Control with Git</h1>
                     <h3>What It Is, And Why You Should Care</h3>
                     <p>
                     <small>November 2012<br/> by Nathan Stien</small>
@@ -160,6 +160,23 @@ my-project-1998-09-13.zip  # d'oh!
                 </section>
                 <section>
                     <section data-markdown> <script type="text/template">
+                        ## When should you use a version control system?
+
+                        Any time you do anything creative.
+
+                        - Source code
+                        - Configuration files
+                        - Artwork/Images
+                        - Word/Excel/Powerpoint
+                        - Database schemas
+                        - Whatever kind of files Informatica uses
+
+                        You can version any kind of file, but text files are best.
+                    </script> </section>
+
+                </section>
+                <section>
+                    <section data-markdown> <script type="text/template">
                         ## Concepts: Repository
 
                         A *repository* holds the change history for your files.
@@ -200,6 +217,8 @@ my-project-1998-09-13.zip  # d'oh!
                         <img src="img/merging.png" style="background:white; padding:1em"></img>
 
                         The resulting files will contain changes from each parent branch.
+
+                        Merging works best for text files like code or configuration.
                     </script> </section>
 
                     <section data-markdown> <script type="text/template">
@@ -208,6 +227,8 @@ my-project-1998-09-13.zip  # d'oh!
                         You can compare any revision to any other revision and visualize the differences.
 
                         <img src="img/diff.png" style="background:white; padding:0em"></img>
+
+                        This only really works with text files.
                     </script> </section>
 
                     <section data-markdown> <script type="text/template">
@@ -220,7 +241,6 @@ my-project-1998-09-13.zip  # d'oh!
                         But we still had to fix production incidents.
                     </script> </section>
 
-
                     <section data-markdown> <script type="text/template">
                         ## Concepts: Tagging
 
@@ -231,7 +251,8 @@ my-project-1998-09-13.zip  # d'oh!
                         That way we can quickly identify the exact code we're running on a given server.
                     </script> </section>
                 </section>
-                <section data-markdown> <script type="text/template">
+                <section>
+                    <section data-markdown> <script type="text/template">
                         ## Why Git in particular?
 
                         Git is the state of the art in version control tools, and is widely used in industry.
@@ -239,41 +260,84 @@ my-project-1998-09-13.zip  # d'oh!
                         It's free, it runs on almost any kind of computer, and there are GUI tools for Windows, OSX, and Unix systems.
 
                         Its killer features are its cheap branching and flexibility in terms of workflows.
-                </script> </section>
-                <section id="companies-projects"> 
-                    <h2>Who uses Git?</h2>
-                    <p>Lots of people.</p>
-                    <!-- need to do some css work to remove the effects -->
-                    <ul>
-                        <li><a href="https://github.com/google" class="google">Google</a></li>
-                        <li><a href="https://github.com/facebook" class="facebook">Facebook</a></li>
-                        <li><a href="http://aspnetwebstack.codeplex.com" class="microsoft">Microsoft</a></li>
-                        <li><a href="https://github.com/twitter" class="twitter">Twitter</a></li>
-                        <li><a href="https://github.com/linkedin" class="linked-in">LinkedIn</a></li>
-                        <li><a href="https://github.com/netflix" class="netflix">Netflix</a></li>
-                        <li><a href="http://perl5.git.perl.org/perl.git" class="perl">Perl</a></li>
-                        <li><a href="http://git.postgresql.org/gitweb/" class="postgresql">PostgreSQL</a></li>
-                        <li><a href="https://android-review.googlesource.com/#/q/status:open,n,z" class="android">Android</a></li>
-                        <li><a href="http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=summary" class="linux">Linux</a></li>
-                        <li><a href="https://github.com/rails/rails" class="rails">Ruby on Rails</a></li>
-                        <li><a href="http://qt.gitorious.org/" class="qt">Qt</a></li>
-                        <li><a href="http://git.gnome.org/browse/" class="gnome">Gnome</a></li>
-                        <li><a href="http://git.eclipse.org/c/" class="eclipse">Eclipse</a></li>
-                        <li><a href="http://quickgit.kde.org/" class="kde">KDE</a></li>
-                        <li><a href="http://www.x.org/wiki/Development/BuildingX?action=show&amp;redirect=Development%2Fgit" class="x">X</a></li>
-                    </ul>
-                </section>
-                <section data-markdown> <script type="text/template">
+                    </script> </section>
+                    <section id="companies-projects"> 
+                        <h2>Who uses Git?</h2>
+                        <p>Lots of people.</p>
+                        <!-- need to do some css work to remove the effects -->
+                        <ul>
+                            <li><a href="https://github.com/google" class="google">Google</a></li>
+                            <li><a href="https://github.com/facebook" class="facebook">Facebook</a></li>
+                            <li><a href="http://aspnetwebstack.codeplex.com" class="microsoft">Microsoft</a></li>
+                            <li><a href="https://github.com/twitter" class="twitter">Twitter</a></li>
+                            <li><a href="https://github.com/linkedin" class="linked-in">LinkedIn</a></li>
+                            <li><a href="https://github.com/netflix" class="netflix">Netflix</a></li>
+                            <li><a href="http://perl5.git.perl.org/perl.git" class="perl">Perl</a></li>
+                            <li><a href="http://git.postgresql.org/gitweb/" class="postgresql">PostgreSQL</a></li>
+                            <li><a href="https://android-review.googlesource.com/#/q/status:open,n,z" class="android">Android</a></li>
+                            <li><a href="http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=summary" class="linux">Linux</a></li>
+                            <li><a href="https://github.com/rails/rails" class="rails">Ruby on Rails</a></li>
+                            <li><a href="http://qt.gitorious.org/" class="qt">Qt</a></li>
+                            <li><a href="http://git.gnome.org/browse/" class="gnome">Gnome</a></li>
+                            <li><a href="http://git.eclipse.org/c/" class="eclipse">Eclipse</a></li>
+                            <li><a href="http://quickgit.kde.org/" class="kde">KDE</a></li>
+                            <li><a href="http://www.x.org/wiki/Development/BuildingX?action=show&amp;redirect=Development%2Fgit" class="x">X</a></li>
+                        </ul>
+                    </section>
+                    </section>
+                    <section>
+                    <section data-markdown> <script type="text/template">
+                        ## Some example Git commands
+                            # create a new repository in this folder
+                            git init
+
+                            # add your files to a changeset
+                            git add MyFile.java my-other-file.xml
+
+                            # commit your changes
+                            git commit -m 'updaded my java file and my other file'
+
+                            # push your changes to a server (if you have one)
+                            git push
+
+                            # get the latest changes from the server 
+                            git pull
+
+                            # look at recent change records
+                            git log
+
+                        While there are GUI tools for git, it still helps to understand the basic commands.
+                    </script> </section>
+                    <section data-markdown> <script type="text/template">
+                        ## Git commands visualized
+
+                        <img src="img/git-transport-commands.png" style="background:white"></img>
+
+                    </script> </section>
+                    <section data-markdown> <script type="text/template">
+                        ## You might prefer to use a GUI
+
+                        On Windows, I've used **TortoiseGit**.
+
+                        On OSX, I've heard good things about **Tower**, but it's not free.
+
+                        Several tools such as **gitk** and **QGit** work on all major operating systems.
+
+                        Many more are listed on the [official site](http://git-scm.com/downloads/guis).
+                    </script> </section>
+                    <section data-markdown> <script type="text/template">
                         ## Resources for Learning Git
 
                         There are many free books, websites, and videos for learning to use Git.
 
-                        - git-scm.org
-                        - gitref.org
-                        - try.github.com
+                        - Official Site - [git-scm.org](http://git-scm.org)
+                        - Reference Guide - [gitref.org](http://gitref.org)
+                        - Interactive Tutorial - [try.github.com](http://try.github.com)
 
-                        I will include even more links in the Sharepoint document about this.
-                </script> </section>
+                        I will include more links in the Sharepoint document about this.
+                    </script> </section>
+                </section>
+            </section>
                 <section>
                     <h1>THE END</h1>
                 </section>

@@ -257,9 +257,9 @@ my-project-1998-09-13.zip  # d'oh!
 
                         Git is the state of the art in version control tools, and is widely used in industry.
 
-                        It's free, it runs on almost any kind of computer, and there are GUI tools for Windows, OSX, and Unix systems.
+                        It's very fast, free, and it runs on almost any kind of computer.
 
-                        Its killer features are its cheap branching and flexibility in terms of workflows.
+                        Its killer features are its cheap branching model and its flexibility in terms of workflows.
                     </script> </section>
                     <section id="companies-projects"> 
                         <h2>Who uses Git?</h2>
@@ -309,7 +309,36 @@ my-project-1998-09-13.zip  # d'oh!
                         While there are GUI tools for git, it still helps to understand the basic commands.
                     </script> </section>
                     <section data-markdown> <script type="text/template">
-                        ## Git commands visualized
+                        ## More example Git commands
+                            # clone a repository from a remote server
+                            git clone git+ssh://server/path/to/repository
+
+                            # see what changed between now and an old revision
+                            git diff <revision-specification>
+
+                            # change your local copy to match an old revision
+                            git checkout <revision-specification>
+
+                            # get back to the latest version
+                            git checkout HEAD
+
+                    </script> </section>
+                    <section data-markdown> <script type="text/template">
+                        ## Even more example Git commands
+                            # make a new branch
+                            git branch my-feature
+
+                            # switch to that new branch
+                            git checkout my-feature
+
+                            # merge in changes from somewhere else to the current branch
+                            git merge my-other-branch
+
+                            # pretend the latest change never happened
+                            git reset --hard HEAD^
+                    </script> </section>
+                    <section data-markdown> <script type="text/template">
+                        ## Git transport commands visualized
 
                         <img src="img/git-transport-commands.png" style="background:white"></img>
 

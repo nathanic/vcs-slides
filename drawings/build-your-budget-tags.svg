@@ -9,12 +9,15 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="734.74103"
-   height="219.85443"
+   width="745.28955"
+   height="224.47623"
    id="svg2"
    version="1.1"
    inkscape:version="0.48.3.1 r9886"
-   sodipodi:docname="build-your-budget.svg">
+   sodipodi:docname="build-your-budget-tags.svg"
+   inkscape:export-filename="/home/nathan/p/vcs-slides/img/build-your-budget.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <defs
      id="defs4">
     <marker
@@ -54,8 +57,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="368.97386"
-     inkscape:cy="137.24783"
+     inkscape:cx="192.83292"
+     inkscape:cy="101.79097"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -76,7 +79,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -84,7 +87,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-16.034281,-56.932579)">
+     transform="translate(-12.600273,-16.853928)">
     <rect
        y="127.78951"
        x="22.600273"
@@ -93,7 +96,7 @@
        id="rect4237"
        style="fill:#ff0000;fill-opacity:0.50196078;fill-rule:evenodd;stroke:none" />
     <rect
-       style="fill:#00ffff;fill-opacity:0.50196078000000000;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:#00ffff;fill-opacity:0.50196078;fill-rule:evenodd;stroke:none"
        id="rect4239"
        width="725.28955"
        height="42.426407"
@@ -327,31 +330,88 @@
        id="path5492"
        style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        sodipodi:type="arc" />
-    <text
-       sodipodi:linespacing="125%"
-       id="text5494"
-       y="73.524384"
-       x="388.90872"
-       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-       xml:space="preserve"><tspan
-         sodipodi:role="line"
-         id="tspan5498"
-         x="388.90872"
-         y="73.524384">merge bugfix to master</tspan></text>
+    <g
+       id="g5535"
+       transform="translate(-0.51585962,1.1575348)">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5529"
+         d="M 100.51018,83.625898 C 152.2805,31.855581 145.71451,38.421572 145.71451,38.421572 l 28.03173,0"
+         style="fill:none;stroke:#0000ff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text5531"
+         y="33.118271"
+         x="149.50258"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+         xml:space="preserve"><tspan
+           y="33.118271"
+           x="149.50258"
+           id="tspan5533"
+           sodipodi:role="line">v1.0</tspan></text>
+    </g>
+    <g
+       transform="translate(0.99937038,0.14738181)"
+       id="g5577">
+      <path
+         style="fill:none;stroke:#0000ff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 190.41376,84.636051 c 51.77032,-51.770318 45.20433,-45.204327 45.20433,-45.204327 l 28.03173,0"
+         id="path5542"
+         inkscape:connector-curvature="0" />
+      <text
+         xml:space="preserve"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+         x="239.40616"
+         y="34.128422"
+         id="text5544"
+         sodipodi:linespacing="125%"><tspan
+           y="34.128422"
+           x="239.40616"
+           id="tspan5575"
+           sodipodi:role="line">v1.1</tspan></text>
+    </g>
+    <path
+       style="fill:none;stroke:#0000ff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 462.13401,84.78343 c 51.77032,-51.770315 45.20433,-45.204324 45.20433,-45.204324 l 28.03173,0"
+       id="path5550"
+       inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
-       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-       x="452.04327"
-       y="249.29092"
-       id="text5500"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="511.12643"
+       y="34.275803"
+       id="text5552"
        sodipodi:linespacing="125%"><tspan
+         y="34.275803"
+         x="511.12643"
          sodipodi:role="line"
-         id="tspan5504"
-         x="452.04327"
-         y="249.29092">merge master back to feature branch</tspan><tspan
+         id="tspan5585">v1.2</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       id="path5566"
+       d="M 728.81428,84.78343 C 677.04396,33.013115 683.60995,39.579106 683.60995,39.579106 l -28.03173,0"
+       style="fill:none;stroke:#0000ff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text5568"
+       y="34.275803"
+       x="659.11377"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       xml:space="preserve"><tspan
          sodipodi:role="line"
-         id="tspan5506"
-         x="452.04327"
-         y="264.29092">to pick up production incident fix</tspan></text>
+         id="tspan5590"
+         x="659.11377"
+         y="34.275803">v1.3</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text5615"
+       y="37.306259"
+       x="26.711384"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       xml:space="preserve"><tspan
+         sodipodi:role="line"
+         id="tspan5621"
+         x="26.711384"
+         y="37.306259">tags</tspan></text>
   </g>
 </svg>

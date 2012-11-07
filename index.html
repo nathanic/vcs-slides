@@ -4,10 +4,10 @@
     <head>
         <meta charset="utf-8">
 
-        <title>reveal.js - The HTML Presentation Framework</title>
+        <title>Version Control</title>
 
-        <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
-        <meta name="author" content="Hakim El Hattab">
+        <meta name="description" content="A presentation about versoin control">
+        <meta name="author" content="Nathan Stien">
 
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -86,6 +86,10 @@ my-project-1997-04-07.zip
                         <h2>Why not just make backup copies?</h2>
                         <h4>Doesn't work well with a team</h4>
                         <p>I had a bunch of zip files of old versions of the project, but they were just on my computer.</p>
+                        <div class="fragment">
+                            <p>It's even harder for someone else to sift through a pile of zip files with no context.</p>
+                            <img src="img/confused-dog.gif"></img>
+                        </div>
                     </section>
                     <section>
                         <h2>Why not just make backup copies?</h2>
@@ -154,7 +158,8 @@ my-project-1998-09-13.zip  # d'oh!
                         <img src="img/central-server.png"></img>
                     </script> </section>
                 </section>
-                <section data-markdown> <script type="text/template">
+                <section>
+                    <section data-markdown> <script type="text/template">
                         ## Concepts: Repository
 
                         A *repository* holds the change history for your files.
@@ -164,8 +169,8 @@ my-project-1998-09-13.zip  # d'oh!
                         <img src="img/repository.png" style="border:none"></img>
 
                         Repositories can be local to your workstation or on a remote server.
-                </script> </section>
-                <section data-markdown> <script type="text/template">
+                    </script> </section>
+                    <section data-markdown> <script type="text/template">
                         ## Concepts: Commits
 
                         To record your latest changes to your files, you make a *commit*.  
@@ -173,10 +178,11 @@ my-project-1998-09-13.zip  # d'oh!
                         <img src="img/simple-commits.png" style="background:white; padding:1em"></img>
 
                         The commit adds a snapshot of your files to the repository.
-                        
+
                         It prompts you to enter a description of your changes.
-                </script> </section>
-                <section data-markdown> <script type="text/template">
+                    </script> </section>
+
+                    <section data-markdown> <script type="text/template">
                         ## Concepts: Branches
 
                         *Branches* are alternative lines of work on the same project.
@@ -184,8 +190,9 @@ my-project-1998-09-13.zip  # d'oh!
                         <img src="img/branching.png" style="background:white; padding:1em"></img>
 
                         You can split them off from other work at any time.
-                </script> </section>
-                <section data-markdown> <script type="text/template">
+                    </script> </section>
+
+                    <section data-markdown> <script type="text/template">
                         ## Concepts: Merging
 
                         Branches can also be *merged* back together.  
@@ -193,10 +200,82 @@ my-project-1998-09-13.zip  # d'oh!
                         <img src="img/merging.png" style="background:white; padding:1em"></img>
 
                         The resulting files will contain changes from each parent branch.
+                    </script> </section>
+
+                    <section data-markdown> <script type="text/template">
+                        ## Concepts: Diffing
+
+                        You can compare any revision to any other revision and visualize the differences.
+
+                        <img src="img/diff.png" style="background:white; padding:0em"></img>
+                    </script> </section>
+
+                    <section data-markdown> <script type="text/template">
+                        ## Branching Example: BudgetWizard
+
+                        We branched to implement a new feature called *Build Your Budget*.
+
+                        <img src="img/build-your-budget.png" style="background:white; padding:0em"></img>
+
+                        But we still had to fix production incidents.
+                    </script> </section>
+
+
+                    <section data-markdown> <script type="text/template">
+                        ## Concepts: Tagging
+
+                        Tags are markers for special revisions.  We tag our code when we deploy it.
+
+                        <img src="img/build-your-budget-tags.png" style="background:white; padding:1em"></img>
+
+                        That way we can quickly identify the exact code we're running on a given server.
+                    </script> </section>
+                </section>
+                <section data-markdown> <script type="text/template">
+                        ## Why Git in particular?
+
+                        Git is the state of the art in version control tools, and is widely used in industry.
+
+                        It's free, it runs on almost any kind of computer, and there are GUI tools for Windows, OSX, and Unix systems.
+
+                        Its killer features are its cheap branching and flexibility in terms of workflows.
+                </script> </section>
+                <section id="companies-projects"> 
+                    <h2>Who uses Git?</h2>
+                    <p>Lots of people.</p>
+                    <!-- need to do some css work to remove the effects -->
+                    <ul>
+                        <li><a href="https://github.com/google" class="google">Google</a></li>
+                        <li><a href="https://github.com/facebook" class="facebook">Facebook</a></li>
+                        <li><a href="http://aspnetwebstack.codeplex.com" class="microsoft">Microsoft</a></li>
+                        <li><a href="https://github.com/twitter" class="twitter">Twitter</a></li>
+                        <li><a href="https://github.com/linkedin" class="linked-in">LinkedIn</a></li>
+                        <li><a href="https://github.com/netflix" class="netflix">Netflix</a></li>
+                        <li><a href="http://perl5.git.perl.org/perl.git" class="perl">Perl</a></li>
+                        <li><a href="http://git.postgresql.org/gitweb/" class="postgresql">PostgreSQL</a></li>
+                        <li><a href="https://android-review.googlesource.com/#/q/status:open,n,z" class="android">Android</a></li>
+                        <li><a href="http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=summary" class="linux">Linux</a></li>
+                        <li><a href="https://github.com/rails/rails" class="rails">Ruby on Rails</a></li>
+                        <li><a href="http://qt.gitorious.org/" class="qt">Qt</a></li>
+                        <li><a href="http://git.gnome.org/browse/" class="gnome">Gnome</a></li>
+                        <li><a href="http://git.eclipse.org/c/" class="eclipse">Eclipse</a></li>
+                        <li><a href="http://quickgit.kde.org/" class="kde">KDE</a></li>
+                        <li><a href="http://www.x.org/wiki/Development/BuildingX?action=show&amp;redirect=Development%2Fgit" class="x">X</a></li>
+                    </ul>
+                </section>
+                <section data-markdown> <script type="text/template">
+                        ## Resources for Learning Git
+
+                        There are many free books, websites, and videos for learning to use Git.
+
+                        - git-scm.org
+                        - gitref.org
+                        - try.github.com
+
+                        I will include even more links in the Sharepoint document about this.
                 </script> </section>
                 <section>
                     <h1>THE END</h1>
-                    <h3>BY Nathan Stien</h3>
                 </section>
 
             </div>
@@ -214,6 +293,7 @@ my-project-1998-09-13.zip  # d'oh!
                 controls: true,
                 progress: true,
                 history: true,
+                rollingLinks: false,
 
                 theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
                 transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/none

@@ -58,7 +58,7 @@
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1002"
+     inkscape:window-height="1059"
      inkscape:window-x="-4"
      inkscape:window-y="-4"
      inkscape:window-maximized="1" />
@@ -70,7 +70,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -87,13 +87,19 @@
        sodipodi:rx="40"
        sodipodi:ry="40"
        d="m 154.28571,149.50504 a 40,40 0 1 1 -79.999997,0 40,40 0 1 1 79.999997,0 z"
-       transform="matrix(0.32656497,0,0,0.32656497,61.118455,48.407809)" />
+       transform="matrix(0.32656497,0,0,0.32656497,61.118455,48.407809)"
+       inkscape:export-filename="/home/nathan/p/vcs-slides/img/simple-commits.png"
+       inkscape:export-xdpi="269.74185"
+       inkscape:export-ydpi="269.74185" />
     <path
        style="fill:none;stroke:#000000;stroke-width:4.9492569;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Send)"
        d="m 111.11678,97.768028 c 20.79523,0 57.36364,0 57.36364,0"
        id="path3755"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/nathan/p/vcs-slides/img/simple-commits.png"
+       inkscape:export-xdpi="269.74185"
+       inkscape:export-ydpi="269.74185" />
     <path
        transform="matrix(0.32656497,0,0,0.32656497,150.40417,48.407809)"
        d="m 154.28571,149.50504 a 40,40 0 1 1 -79.999997,0 40,40 0 1 1 79.999997,0 z"
@@ -103,7 +109,10 @@
        sodipodi:cx="114.28571"
        id="path4569"
        style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       sodipodi:type="arc" />
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/nathan/p/vcs-slides/img/simple-commits.png"
+       inkscape:export-xdpi="269.74185"
+       inkscape:export-ydpi="269.74185" />
     <path
        sodipodi:type="arc"
        style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -113,20 +122,29 @@
        sodipodi:rx="40"
        sodipodi:ry="40"
        d="m 154.28571,149.50504 a 40,40 0 1 1 -79.999997,0 40,40 0 1 1 79.999997,0 z"
-       transform="matrix(0.32656497,0,0,0.32656497,240.04703,48.407809)" />
+       transform="matrix(0.32656497,0,0,0.32656497,240.04703,48.407809)"
+       inkscape:export-filename="/home/nathan/p/vcs-slides/img/simple-commits.png"
+       inkscape:export-xdpi="269.74185"
+       inkscape:export-ydpi="269.74185" />
     <path
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
        id="path4573"
        d="m 198.61678,97.768028 c 20.79523,0 57.36364,0 57.36364,0"
-       style="fill:none;stroke:#000000;stroke-width:4.9492569;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Send)" />
+       style="fill:none;stroke:#000000;stroke-width:4.9492569;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Send)"
+       inkscape:export-filename="/home/nathan/p/vcs-slides/img/simple-commits.png"
+       inkscape:export-xdpi="269.74185"
+       inkscape:export-ydpi="269.74185" />
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
        x="94.954338"
        y="136.15382"
        id="text4867"
-       sodipodi:linespacing="125%"><tspan
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/nathan/p/vcs-slides/img/simple-commits.png"
+       inkscape:export-xdpi="269.74185"
+       inkscape:export-ydpi="269.74185"><tspan
          sodipodi:role="line"
          id="tspan4871"
          x="94.954338"
@@ -141,7 +159,10 @@
        y="136.15382"
        x="278.04449"
        style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-       xml:space="preserve"><tspan
+       xml:space="preserve"
+       inkscape:export-filename="/home/nathan/p/vcs-slides/img/simple-commits.png"
+       inkscape:export-xdpi="269.74185"
+       inkscape:export-ydpi="269.74185"><tspan
          sodipodi:role="line"
          id="tspan4881"
          x="278.04449"
@@ -156,7 +177,10 @@
        x="187.3833"
        y="136.15382"
        id="text4885"
-       sodipodi:linespacing="125%"><tspan
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/nathan/p/vcs-slides/img/simple-commits.png"
+       inkscape:export-xdpi="269.74185"
+       inkscape:export-ydpi="269.74185"><tspan
          sodipodi:role="line"
          id="tspan4891"
          x="187.3833"
